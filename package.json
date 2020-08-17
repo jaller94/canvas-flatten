@@ -1,6 +1,6 @@
 {
   "name": "canvas-flatten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatten canvas image data with transparency on a solid background",
   "main": "src/canvas-flatten.js",
   "scripts": {
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/NielsLeenheer/CanvasFlatten#readme",
   "devDependencies": {
-    "browserify": "^14.5.0",
-    "eslint": "^4.11.0",
-    "eslint-config-google": "^0.9.1",
-    "uglify-es": "^3.1.10",
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "browserify": "^16.5.2",
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0",
+    "uglify-es": "^3.3.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
   }
 }
