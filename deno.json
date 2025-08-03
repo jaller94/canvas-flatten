@@ -1,6 +1,6 @@
 {
   "name": "@jaller94/canvas-flatten",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "license": "MIT",
   "exports": "./main.ts",
   "imports": {
