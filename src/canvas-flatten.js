@@ -3,13 +3,13 @@
  */
 class CanvasFlatten {
   /**
-     * Change the image to grayscale
-     *
-     * @param  {object}   image         The imageData of a Canvas 2d context
-     * @param  {array}    background    Three values consisting of the r, g, b of the background
-     * @return {object}                 The resulting imageData
-     *
-     */
+   * Flatten the image on a solid background
+   *
+   * @param  {ImageData}               image         The imageData of a Canvas 2d context
+   * @param  {[number,number,number]}  background    Three values consisting of the r, g, b of the background
+   * @return {ImageData}                             The resulting imageData
+   *
+   */
   flatten(image, background) {
     for (let i = 0; i < image.data.length; i += 4) {
       const alpha = image.data[i + 3];
