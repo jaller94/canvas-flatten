@@ -7,7 +7,7 @@
 export const flatten = (
   image: ImageData,
   background: [number, number, number],
-) => {
+): void => {
   for (let i = 0; i < image.data.length; i += 4) {
     const alpha = image.data[i + 3];
     const invAlpha = 255 - alpha;
