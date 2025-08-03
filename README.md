@@ -25,7 +25,7 @@ import { flatten } from '@jaller94/canvas-flatten';
 
 // Assume we have an existing canvas element with a 2D context
 // Retrieve the image data of the canvas
-let image = context.getImageData(0, 0, canvas.width, canvas.height);
+const image = context.getImageData(0, 0, canvas.width, canvas.height);
 
 // Flatten the transparency on a white background
 flatten(image, [ 0xff, 0xff, 0xff ]);
